@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    background-color: #e0f2fe;
+    color: #0369a1;
+  }
+
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', 'Noto Serif JP', Georgia, serif;
+  }
+
+  .font-serif-jp {
+    font-family: 'Noto Serif JP', 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Mobile safe area padding for modern notch & bottom bar screens */
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 12px);
+}
+
+/* Hide scrollbar for clean horizontal swipes on mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle Swan Lake custom scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.4);
+}

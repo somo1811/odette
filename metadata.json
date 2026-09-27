@@ -1,0 +1,6 @@
+{
+  "name": "ODETTE - 白鳥の湖 バレエボディメイク＆日報コンディショニング",
+  "description": "バレエ発表会「白鳥の湖」オデット役を目指すダンサーのための特別仕様コンディショニングアプリ。体重・体脂肪率・筋肉量の厳密な目標調整、AI管理栄養士による食事写真アドバイス、柔軟性推移グラフとストレッチ記録、音声入力レッスン日報を統合。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
